@@ -1,0 +1,84 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5EF150B9
+P 2100 1700
+F 0 "H1" H 2200 1749 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2200 1658 50  0000 L CNN
+F 2 "kosmo:Kosmo_Panel_Mounting_Hole" H 2100 1700 50  0001 C CNN
+F 3 "~" H 2100 1700 50  0001 C CNN
+	1    2100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5EF1554D
+P 2650 1700
+F 0 "H2" H 2750 1749 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2750 1658 50  0000 L CNN
+F 2 "kosmo:Kosmo_Panel_Mounting_Hole" H 2650 1700 50  0001 C CNN
+F 3 "~" H 2650 1700 50  0001 C CNN
+	1    2650 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5EF16653
+P 3100 1700
+F 0 "H3" H 3200 1749 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3200 1658 50  0000 L CNN
+F 2 "kosmo:Kosmo_Panel_Mounting_Hole" H 3100 1700 50  0001 C CNN
+F 3 "~" H 3100 1700 50  0001 C CNN
+	1    3100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5EF16659
+P 3650 1700
+F 0 "H4" H 3750 1749 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3750 1658 50  0000 L CNN
+F 2 "kosmo:Kosmo_Panel_Mounting_Hole" H 3650 1700 50  0001 C CNN
+F 3 "~" H 3650 1700 50  0001 C CNN
+	1    3650 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 1800 3100 1800
+Wire Wire Line
+	2000 1800 2000 2650
+Connection ~ 2100 1800
+Wire Wire Line
+	2100 1800 2000 1800
+Connection ~ 2650 1800
+Wire Wire Line
+	2650 1800 2100 1800
+Connection ~ 3100 1800
+Wire Wire Line
+	3100 1800 2650 1800
+$Comp
+L power:GND #PWR0101
+U 1 1 5EF169AB
+P 2000 2650
+F 0 "#PWR0101" H 2000 2400 50  0001 C CNN
+F 1 "GND" H 2005 2477 50  0000 C CNN
+F 2 "" H 2000 2650 50  0001 C CNN
+F 3 "" H 2000 2650 50  0001 C CNN
+	1    2000 2650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
